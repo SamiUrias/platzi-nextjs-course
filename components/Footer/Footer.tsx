@@ -15,7 +15,7 @@ const Footer = () => (
     <Container text>
       <Grid stackable>
         <Grid.Row>
-          <Grid.Column width={4}>
+          <Grid.Column width={6}>
             <Header as="h4" content="Nosotros" />
             <List>
               <List.Item>
@@ -25,7 +25,7 @@ const Footer = () => (
               </List.Item>
             </List>
           </Grid.Column>
-          <Grid.Column width={5}>
+          <Grid.Column width={6}>
             <Header as="h4" content="Servicios" />
             <List>
               <List.Item>
@@ -33,30 +33,6 @@ const Footer = () => (
                   <a>Todos los productos</a>
                 </Link>
               </List.Item>
-            </List>
-          </Grid.Column>
-          <Grid.Column width={7}>
-            <Header as="h4">Hecho para</Header>
-            <p>
-              <a href="https://platzi.com/">Platzi y su curso de Next.JS</a> de
-              Platzi dictado por{' '}
-              <a href="https://twitter.com/jonalvarezz">@jonalvarezz</a>
-            </p>
-            <List horizontal style={{ display: 'flex' }}>
-              <List.Item
-                icon="twitter"
-                style={{ display: 'flex' }}
-                content={<a href="https://twitter.com/jonalvarezz">Twitter</a>}
-              />
-              <List.Item
-                icon="github"
-                style={{ display: 'flex' }}
-                content={
-                  <a href="https://github.com/jonalvarezz/platzi-nextjs">
-                    GitHub
-                  </a>
-                }
-              />
             </List>
           </Grid.Column>
         </Grid.Row>
